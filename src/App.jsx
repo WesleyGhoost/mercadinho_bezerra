@@ -1,8 +1,9 @@
 import './App.css'
-import './components/Header'
-import './components/About'
-import './components/Products'
-import './components/Footer'
+import Header from './components/Header/Header.jsx'
+import About from './components/About/About.jsx'
+import Products from './components/Products/Products.jsx'
+import Local from './components/Local/Local.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Header />
     <About />
     <Products />
+    <Local />
     <Footer />
   </>
   )
