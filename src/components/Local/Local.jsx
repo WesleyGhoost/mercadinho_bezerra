@@ -1,4 +1,5 @@
-import styles from './Local.module.css'
+import Reveal from '../Reveal';
+import './Local.css'
 import { useEffect } from "react";
 
 function Local() {
@@ -9,18 +10,31 @@ function Local() {
         script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`
         script.async = true
         window.initMap = function () {
-            new window.google.maps.Map(document.getElementById('map'), {
+            const map = new window.google.maps.Map(document.getElementById('map'), {
                 center: { lat: -23.6719403, lng: -46.7851142 },
                 zoom: 16
+            });
+
+            new window.google.maps.Marker({
+                position: { lat: -23.6719403, lng: -46.7851142 },
+                map: map,
+                title: 'Mercadinho Bezerra'
             })
         };
         document.body.appendChild(script)
     }, [])
 
     return (
-        <section>
-            <h2>Localização</h2>
-            <div id='map' style={{ height: '300px', width: '50%' }}></div>
+        <section className='local-container'>
+            <Reveal delay={0.2}>
+                <h2 className='local-title'>Localização</h2>
+            </Reveal>
+            <Reveal direction='left' delay={0.3}>
+                <h3 className='local-localization'>
+                    Rua Frederico Branco, 144 - Capão Redondo, SP
+                </h3>
+            </Reveal>
+            <div id='map' style={{ height: '400px', width: '70%' }}></div>
         </section>
     )
 }

@@ -1,0 +1,15 @@
+.local-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.local-title {
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+    margin-bottom: 50px;
+}
