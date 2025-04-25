@@ -8,7 +8,8 @@ import Footer from './components/Footer/Footer.jsx'
 function App() {
   return (
   <>
-    <Header />
+  
+     <Header />
     <About />
     <Products />
     <Local />

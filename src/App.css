@@ -1,4 +1,8 @@
 #root {
-  margin: 0 auto;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background-color: aliceblue;
 }
