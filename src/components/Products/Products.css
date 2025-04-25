@@ -31,6 +31,20 @@
     width: 50%;
 }
 
+.products-others-subcontainer-1, .products-fruits-subcontainer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products-others-subcontainer-1-title, .products-fruits-subcontainer-2-title {
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 2px solid ;
+    padding-bottom: 4px;
+}
+
 .products-others-subcontainer-2-img, .products-fruits-subcontainer-1-img {
     width: 100%;
     height: 100%;
