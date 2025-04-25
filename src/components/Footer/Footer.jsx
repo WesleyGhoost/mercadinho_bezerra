@@ -6,13 +6,13 @@ function Footer() {
             <div className="footer-content">
                 <div>
                     <h4>Mercadinho Bezerra</h4>
-                    <p>CNPJ: 00.000.000/0000-00</p>
-                    <p>Desde 2019 servindo com carinho</p>
+                    <p>CNPJ: 35.953.428/0001-33</p>
+                    <p>Desde 2019 atendendo com carinho</p>
                 </div>
 
                 <div>
                     <h4>Contato</h4>
-                    <p>Tel: (11) 99999-9999</p>
+                    <p>Tel: (11) 98419-3257</p>
                 </div>
             </div>
             <div className="footer-bottom">
