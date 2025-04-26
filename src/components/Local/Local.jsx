@@ -31,7 +31,7 @@ function Local() {
             </Reveal>
             <Reveal direction='left' delay={0.3}>
                 <h3 className='local-localization'>
-                    Rua Frederico Branco, 144 - Capão Redondo, SP
+                    Rua Eurico Branco Ribeiro, 144 - Capão Redondo, SP
                 </h3>
             </Reveal>
             <div id='map' style={{ height: '400px', width: '70%' }}></div>
